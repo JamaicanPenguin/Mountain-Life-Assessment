@@ -1,0 +1,144 @@
+/*
+dark primary color: #1976D2
+primary color: #2196F3
+accent color: #536DFE
+text color: #FFFFF
+hover text: #212121
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+}
+
+h1 {
+    background-color: #1976D2;
+    color: #FFFFFF;
+    padding: 40px 150px;
+    font-size: 96px;
+    font-weight: 300;
+    margin: 40px 150px;
+    margin-top: 100px;
+}
+
+h2 {
+    margin: 40px 0px;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+section p {
+   line-height: 150%; 
+    margin: 40px 0px;
+    max-width: 754px;
+    text-align: justify;
+}
+
+header {
+    text-transform: uppercase;
+}
+
+a {
+    color: #1976D2;
+    text-decoration: none;
+}
+
+section {
+    margin: 0 auto;
+    width: 754px;
+}
+
+section ul {
+    margin-left: 50px;
+}
+
+h1, h2, footer, nav ul {
+    text-align: center;
+}
+
+nav {
+    background-color: #2196F3;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav li, nav a {
+    display: inline-block;
+}
+
+nav ul {
+    list-style: none; 
+    text-transform: uppercase;
+}
+ 
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 5px solid rgba(25, 118, 210, 0); 
+}
+
+.active {
+   border-top: 5px solid #536DFE;
+}
+
+nav li {
+    padding: 0px;
+}
+
+nav a:hover {
+    color: #212121;
+    border-bottom: 5px solid #1976D2;
+}
+
+img {
+    margin-top: 40px;
+    width: 754px; 
+}
+
+footer {
+    background-color: #1976D2;
+    color: #FFFFFF;
+    padding: 40px 150px;
+    margin-top: 40px;
+}
+
+html {
+    display: block;
+    color: -internal-root-color;
+}
+
+nav img{
+    float: left; 
+    height: 50px;
+    width: 50px;
+    margin-left: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    
+}
+@media only screen and (max-width: 800px) {
+  h1 {
+    padding: 0px;
+    font-size: 48px;
+      margin-top: 200px;
+  }
+}
+
+iframe {
+    margin: 0 auto;
+    display: block;
+}
+
+ol {
+    display: block;
+    margin-left: 210px; 
+}
+
+.task {
+    text-align: center;
+}
